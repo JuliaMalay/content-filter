@@ -1,4 +1,4 @@
 # content-filter
 mini project: filter for elements
-Link:
+- Link:
 https://juliamalay.github.io/content-filter/
