@@ -1,0 +1,73 @@
+html,
+body {
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0px;
+  cursor: pointer;
+}
+.box {
+  border-radius: 4px;
+  box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0/7);
+  min-height: 140px;
+  min-width: calc(22% - 28px);
+  padding: 0 10px;
+  margin: 15px;
+  float: left;
+}
+.box.indigo {
+  border: 3px solid #4b0082;
+}
+.box.deep_pink {
+  border: 3px solid #ff1493;
+}
+.box.gold {
+  border: 3px solid #ffd700;
+}
+.box.lime {
+  border: 3px solid #00ff00;
+}
+.box.aqua {
+  border: 3px solid #00ffff;
+}
+.text-indigo {
+  color: #4b0082;
+}
+.text-deep_pink {
+  color: #ff1493;
+}
+.text-gold {
+  color: #ffd700;
+}
+.text-lime {
+  color: #00ff00;
+}
+.text-aqua {
+  color: #00ffff;
+}
+.hide {
+  opacity: 1;
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes a1 {
+  to {
+    opacity: 0;
+    min-height: 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+}
